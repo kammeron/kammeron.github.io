@@ -12,15 +12,22 @@
   <link rel="icon" href="img/brand.png">
 </head>
 <body>
+
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Kammeron Nhieu</a>
+      <a id="logo-container" href="#" class="brand-logo" style="font-size: 20px;">Kammeron Nhieu</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -33,7 +40,7 @@
         <h1 class="header center white-text text-lighten-2"></h1>
         <div class="row center">
           <h5 class="header col s12 light">Software Developer</h5>
-          <h5 class="header col s12 light">Photographer</h5>
+          <h5 class="header col s12 light">Picture Taker</h5>
           <h5 class="header col s12 light">Wiggly Air Enthusiast</h5>
         </div>
         <br><br>
@@ -43,7 +50,7 @@
   </div>
 
 
-  <div class="container">
+  <div id="about" class="container">
     <div class="section">
       <div class="row">
         <h3>About me</h3>
@@ -57,7 +64,7 @@
     <div class="parallax"><img src="img/background4.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
+  <div id="skills" class="container section scrollspy">
     <div class="section">
 
       <!-- skills -->
@@ -176,28 +183,40 @@
     </div>
   </div>
 
-  <div class="container">
+  <div id="projects" class="container">
     <div class="section">
 
       <h3>Projects</h3>
 
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img src="img/unchained2.png" alt="" class="activator">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Unchained<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">Website</a></p>
-            <p><a href="#">GitHub</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Unchained</span>
-            <p>Information about unchained</p>
-          </div>
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="img/unchained.png" alt="" class="activator">
         </div>
-
-
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Unchained<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">Website</a></p>
+          <p><a href="#">GitHub</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Unchained<i class="material-icons right">arrow_drop_down</i></span>
+          <p>Information about unchained</p>
+        </div>
       </div>
+
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="img/1998.png" alt="" class="activator">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">SS Forum (WIP)<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">GitHub</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Unchained<i class="material-icons right">arrow_drop_down</i></span>
+          <p>Information about unchained</p>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -206,38 +225,23 @@
     <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="container">
+  <footer class="page-footer indigo">
+    <div id="contact" class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Contact</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://github.com/kammeron">Github</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/kammeronnhieu/">Linkedin</a></li>
+            <li><a class="white-text" href="mailto:kammeronnhieu@gmail.com">kammeronnhieu@gmail.com </a></li>
+            <li><a class="white-text" href="tel:408-724-7128">408-724-7128</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="http://kammeron.github.io">Kammeron Nhieu</a>
       </div>
     </div>
   </footer>
